@@ -1,0 +1,6 @@
+n=int(input())
+a=list(map(int,input().split()))
+a.sort()
+maxs=sum(a[1:])
+mins=sum(a[:-1])
+print(mins,maxs)
